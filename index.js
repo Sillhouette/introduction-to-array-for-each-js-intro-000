@@ -1,6 +1,7 @@
 // Add your doToElementsInArray() function here:
 function doToElementsInArray(array, callback) {
   array.forEach(callback);
+  console.log(array);
 }
 
 // Add your changeCompletely() function here:
@@ -13,5 +14,4 @@ var animals = ["dog", "cat", "squirrel"];
 doToElementsInArray(animals, changeCompletely);
 
 // log out animals -- pretty cool, right?
-console.log(animals);
 console.log(animals);
