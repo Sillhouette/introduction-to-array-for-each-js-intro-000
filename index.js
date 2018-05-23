@@ -14,3 +14,4 @@ doToElementsInArray(animals, changeCompletely);
 
 // log out animals -- pretty cool, right?
 console.log(animals);
+console.log(animals);
